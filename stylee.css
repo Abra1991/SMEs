@@ -1,0 +1,112 @@
+@import url(<style>
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@1,6..12,1000&display=swap');
+</style>);
+
+*{
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 0; 
+    margin: 0;
+}
+a{
+    color: rgba(19, 32, 217, 0.978);
+    text-decoration: none;
+}
+body{
+    background-image: linear-gradient( to right,rgb(143, 38, 185),rgba(57, 55, 112, 0.018));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-image:
+    linear-gradient(to right, #4a4d990b 30%, #78477d0b),
+    url(pexels-pixabay-290595.jpg)
+    
+    
+    
+    ;
+    background-position: center;
+
+    width: 100%;
+    height: 740px;
+
+}
+.container:hover{
+    background-image:
+    linear-gradient(to right, #9962a00e 80px, transparent),
+    url(contact-bg.jpg) ;
+    border-radius: 25px;
+    
+    
+
+ 
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    font-size: 60px;
+    font-weight: 800;
+    color: black;
+
+
+    }
+ul{
+    width: 55%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 900;
+    font-size: 22px;
+}
+ul a{
+    border-bottom: 2px solid transparent ;
+}
+ul li a:hover{
+    border-bottom-color: rgb(228, 244, 10);
+}
+.content{
+    color: whitesmoke;
+    width: 50%;
+    margin-top: 50px;
+    padding: 30px;
+    font-style: normal;
+    
+
+}
+.content h2{
+    font-size: 40px;
+    color: aqua;
+    
+}
+.content p{
+    letter-spacing: 1px;
+    width: 650px;
+    margin-top: 50px;
+    padding: 40px 0;
+    font-size: 20px;
+    font-style: ;
+}
+.content p:hover{
+    background-color: rgba(112, 246, 246, 0.332);
+}
+
+.content button{
+    font-size: 15px;
+    width: 15%;
+    padding: 6px 10px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    }
+.content button:hover{
+    background-color: transparent;
+    border-color: aliceblue;
+    color: white;
+}
